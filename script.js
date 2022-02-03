@@ -55,7 +55,7 @@ class Dog extends Pet {
 }
 
 const jimmy = new Cat ("Zian", true)
-const bobby = new Dog ("Asma", true)
+const bobby = new Dog ("Javed", true)
 
 console.log(jimmy)
 console.log(bobby)
