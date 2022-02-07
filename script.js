@@ -60,7 +60,15 @@ const bobby = new Dog ("Javed", true)
 console.log(jimmy)
 console.log(bobby)
 
+let button1 = document.querySelector("#button1");
+// let hungermenu = document.querySelector("#_hungry");
 
+button1.addEventListener("click", () =>{
+    prompt("Give your new Pet a name!")
+    document.getElementById("_hungry").innerHTML="100";
+    document.getElementById("_thirsty").innerHTML="100";
+    document.getElementById("_happy").innerHTML="100";
+})
 
 
 
